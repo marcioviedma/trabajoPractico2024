@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: rgb(223, 223, 227);
+   display: flex;
+   justify-content: space-between;
+   padding-left: 50px;
+   height: 7vh;
+   align-items: center;
+}
+ul{
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    width: 80vh;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-top: 10px;
+
+}
+a{
+    
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+ 
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+#formIngreso{
+    display: flex;
+    border-radius: 25%;
+    border: aliceblue;
+    width: 40vw;
+    margin-left: 30vw;
+    font-size: 23px;
+    border-color: aliceblue;
+    flex-direction: column;
+}
+#formIngreso-visible{
+    
+    visibility: visible;
+}
+span{
+   text-align: center;
+   font-size: 25px;
+}
+form .btn-success{
+    border-radius: 6px;
+    text-align: center;
+}
+
+#formRegisrtro{
+    display: flex;
+    border-radius: 25%;
+    border: aliceblue;
+    width: 40vw;
+    margin-left: 30vw;
+    font-size: 23px;
+    border-color: aliceblue;
+    flex-direction: column;
+    
+
+}
+a{
+    
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+footer{
+    background-color: rgb(200, 200, 205);;
+}
+.footerButon{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 200, 205);
+    width: -webkit-fill-available;
+    align-items: baseline;
+    margin-top: 110px;
+
+}
+#firma{
+    display: flex;
+    background-color: rgb(200, 200, 205);
+    justify-content: center;
+   
+}
+footer{
+    background-color: rgb(200, 200, 205);;
+}
+a{
+    text-decoration: none;
+}
+label{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
